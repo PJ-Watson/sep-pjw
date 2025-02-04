@@ -1,3 +1,10 @@
+⚠️ Deprecation ⚠️
+===============
+
+The `sep-pjw` package was deprecated on 03/02/2025, and is now published under the original `sep` name. Please install [`sep>=1.4.0`](https://pypi.python.org/pypi/sep) instead. Future development will take place at [sep-developers/sep](https://github.com/sep-developers/sep).
+
+The following information is kept for historical purposes only.
+
 SEP-PJW
 =======
 

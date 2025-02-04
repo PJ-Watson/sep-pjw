@@ -40,7 +40,8 @@ classifiers=[
 ]
 requires-python = ">=3.9"
 dependencies = [
-    "numpy>=1.23.5"
+    "numpy>=1.23.5",
+    "sep>=1.4.0"
 ]
 
 [project.optional-dependencies]

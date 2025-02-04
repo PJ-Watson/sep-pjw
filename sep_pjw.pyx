@@ -16,7 +16,16 @@ from libc.math cimport sqrt
 
 np.import_array()  # To access the numpy C-API.
 
+import warnings
+
 from _version import version as __version__
+
+warnings.warn(
+"""
+The `sep-pjw` package has reverted to the original `sep` package name. Bug
+fixes and additional enhancements will not be released for `sep-pjw`, and
+users of this package should update their dependencies to `sep>=1.4.0`.
+""", FutureWarning)
 
 # -----------------------------------------------------------------------------
 # Definitions from the SEP C library
